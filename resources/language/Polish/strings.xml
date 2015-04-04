@@ -23,7 +23,7 @@
 	<string id="30008">Autor</string>
 	<string id="30009">Strona domowa</string>
 
-	<string id="30015">Słuchaj strumieni w jakości 320kb/sek z DI Premium na http://www.di.fm</string>
+	<string id="30015">Słuchaj strumieni w jakości 320kb/sek z ROCKRADIO Premium na http://www.rockradio.com</string>
 	<string id="30016">Wersja:  3.1.0</string>
 	<string id="30017">Autor:  Tim C. 'Bitcrusher' Steinmetz</string>
 	<string id="30018">Strona domowa:  http://qualisoft.dk</string>
@@ -41,12 +41,12 @@
 	<string id="30029">-Tim</string>
 
 	<string id="30100">Błąd połączenia</string>
-	<string id="30101">Nie można połączyć z di.fm</string>
+	<string id="30101">Nie można połączyć z rockradio.com</string>
 	<string id="30102">Sprawdź połączenie sieciowe</string>
   <string id="30103">oraz stronę www w swojej przeglądarce</string>
 
 	<string id="30110">Nie znaleziono strumieni</string>
-	<string id="30111">Może Twoja subskrypcja DI Premium wygasła?</string>
+	<string id="30111">Może Twoja subskrypcja ROCKRADIO.com Premium wygasła?</string>
 	<string id="30112">lub wtyczka przestała działać (zmienił się kod HTML strony)</string>
 
 	<string id="30120">Upłynął limit czasu żądania</string>
@@ -78,7 +78,7 @@
   <string id="30172">Może Twoje konto wygasło?</string>
 
   <string id="30180">Brak ulubionych</string>
-  <string id="30181">Zaloguj się do di.fm w swojej przeglądarce i przejdź do 'Zarządzaj ulubionymi'</string>
+  <string id="30181">Zaloguj się do ROCKRADIO.com w swojej przeglądarce i przejdź do 'Zarządzaj ulubionymi'</string>
   <string id="30182">lub odznacz 'Użyj ulubionych' z ustawień tej wtyczki</string>
 
 

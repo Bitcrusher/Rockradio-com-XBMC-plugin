@@ -1,11 +1,11 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 ########################################
-#  Digitally Imported XBMC plugin
+#  ROCKRADIO.COM Kodi plugin
 #  by Tim C. 'Bitcrusher' Steinmetz
 #  http://qualisoft.dk
-#  Github: https://github.com/Bitcrusher/Digitally-Imported-XBMC-plugin
-#  Git Read-only: git://github.com/Bitcrusher/Digitally-Imported-XBMC-plugin.git
+#  Github: https://github.com/Bitcrusher/Rockradio-com-XBMC-plugin
+#  Git Read-only: git://github.com/Bitcrusher/Rockradio-com-XBMC-plugin.git
 #
 #  This Program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -151,9 +151,9 @@ class musicAddonXbmc:
                 # post login info and get frontpage html
                 html = self.curler.request(pluginConfig.get('urls', 'login'), 'post', loginData)
 
-                # if we could not reach di.fm at all
+                # if we could not reach rockradio.com at all
                 if not bool(html):
-                    xbmc.log('di.fm could not be reached', xbmc.LOGWARNING)
+                    xbmc.log('rockradio.com could not be reached', xbmc.LOGWARNING)
                     xbmcgui.Dialog().ok(ADDON.getLocalizedString(30100),
                                         ADDON.getLocalizedString(30101),
                                         ADDON.getLocalizedString(30102),
@@ -195,9 +195,9 @@ class musicAddonXbmc:
             else:
                 html = self.curler.request(pluginConfig.get('urls', 'frontpage'), 'get')
 
-                # if we could not reach di.fm at all
+                # if we could not reach rockradio.com at all
                 if not html:
-                    xbmc.log(u'di.fm could not be reached', xbmc.LOGWARNING)
+                    xbmc.log(u'rockradio.com could not be reached', xbmc.LOGWARNING)
                     xbmcgui.Dialog().ok(ADDON.getLocalizedString(30100),
                                         ADDON.getLocalizedString(30101),
                                         ADDON.getLocalizedString(30102),
@@ -268,6 +268,7 @@ class musicAddonXbmc:
     def getChannelMetadata(self, html):
 
         # Will get JSON with all channel metadata
+	# rockradio.com uses the same javascript app
         re_channelMeta = re.compile(r"di.app.start\(({.+(?!\}\)))\)", re.M | re.I)
         
         channelMeta = re_channelMeta.findall(html)[0]
@@ -329,7 +330,7 @@ class musicAddonXbmc:
 
 
     """ Returns a bool
-     Adds item to the XBMC GUI
+     Adds item to the Kodi GUI
     """
     def addItem(self, channelTitle, streamUrl, streamDescription, bitrate, icon, isNewChannel, totalItems):
         # tart it up a bit if it's a new channel

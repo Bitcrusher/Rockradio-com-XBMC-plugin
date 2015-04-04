@@ -2,6 +2,10 @@
 * Fixed/improved feature
 - Removed feature
 
+4. April 2015 v3.1.0
++ New icon
++ German translation
+* Rebranded di.fm addon to rockradio.com addon
 
 25. March 2015 v3.1.0
 + Got a baby daughter - Ella :D
