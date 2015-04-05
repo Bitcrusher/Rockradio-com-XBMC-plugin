@@ -1,2 +1,2 @@
-Rockradio-fm-XBMC-plugin
+Rockradio-com-Kodi-plugin
 ========================
