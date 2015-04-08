@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.rockradio.com"
-       name="ROCKRADIO.com"
-       version="3.1.0"
+       name="RockRadio.com"
+       version="3.0.0"
        provider-name="qualisoft.dk - Tim C. Steinmetz">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -17,7 +17,6 @@
     		<website>http://www.qualisoft.dk</website>
 		<source>http://github.com/Bitcrusher/Rockradio-com-XBMC-plugin</source>
    		<summary lang="en">ROCKRADIO.com</summary>
-   		<summary lang="de">ROCKRADIO.com</summary>
 		<description lang="en">
 			ROCKRADIO.COM provides more than 30 channels of human-curated rock music. Our mission is to provide the widest selection of music with the fewest interruptions.
 		</description>
