@@ -13,9 +13,9 @@
 		<platform>all</platform>
 		<language>en</language>
 		<license>GPL 2.0</license>
-		<forum>http://forum.xbmc.org/showthread.php?tid=129857</forum>
+		<forum>http://forum.kodi.tv/showthread.php?tid=223813</forum>
     		<website>http://www.qualisoft.dk</website>
-		<source>http://github.com/Bitcrusher/Rockradio-com-XBMC-plugin</source>
+		<source>https://github.com/Bitcrusher/Rockradio-com-XBMC-plugin</source>
    		<summary lang="en">ROCKRADIO.com</summary>
 		<description lang="en">
 			ROCKRADIO.COM provides more than 30 channels of human-curated rock music. Our mission is to provide the widest selection of music with the fewest interruptions.
