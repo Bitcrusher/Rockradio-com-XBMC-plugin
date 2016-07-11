@@ -2,8 +2,8 @@
 * Fixed/improved feature
 - Removed feature
 
-9. July 2016 v3.0.1
- + Merged several changes from DI.fm addon which are:
+12. July 2016 v3.0.1
+ * Merged several changes from DI.fm addon
  * Fixed free streams - thank you to Christian Gerbrandt (derchrisuk)
  + Added option that enables/disables the use of Premium account credentials
  + Added German translation thanks to i-tek
