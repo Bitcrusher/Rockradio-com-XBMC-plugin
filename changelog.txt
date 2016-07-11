@@ -2,6 +2,12 @@
 * Fixed/improved feature
 - Removed feature
 
+9. July 2016 v3.0.1
++ Merged several changes from DI.fm addon which are:
+  + Added option that enables/disables the use of Premium account credentials
+  * Fixed free streams - thank you to Christian Gerbrandt (derchrisuk)
+
+
 8. April 2015 v3.0.0
 + First release
 * Reworked Digitally Imported addon to ROCKRADIO.com addon - thank you to i-tek (Jonas) for doing this
